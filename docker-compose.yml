@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  cine-bot:
+    build: .
+    container_name: cine-bot
+    restart: always
+    env_file:
+      - .env
+    command: python bot_cine.py
