@@ -30,7 +30,7 @@ async def on_ready():
 async def send_poll():
     channel = bot.get_channel(CHANNEL_ID)
     if channel:
-        jours = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]
+        jours = ["Ce soir", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]
         emojis = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣"]
 
         poll_text = "**📅 Jour de la semaine pour le Ciné Guedin**\nVotez en réagissant !\n"
